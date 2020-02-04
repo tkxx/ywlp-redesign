@@ -1,14 +1,25 @@
-import React, { Component } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import About from "../About/about";
+import routes from "../../routes";
 
 const Navbar = () => {
   return (
     <React.Fragment>
-      Navbar
-      <p>
-        <Link to="/about">About</Link>
-      </p>
+      <ul>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About</Link>
+        </li>
+        <li>
+          <Link to="/events/:id">Events</Link>
+        </li>
+        <li>
+          <Link to="/contactus">Contact Us</Link>
+        </li>
+      </ul>
+      {routes}
     </React.Fragment>
   );
 };

@@ -7,9 +7,6 @@ class About extends Component {
       <React.Fragment>
         <h1>About page</h1>
         <h3>// Mission Statement // How we give back to the community</h3>
-        <p>
-          <Link to="/">Home</Link>
-        </p>
       </React.Fragment>
     );
   }
