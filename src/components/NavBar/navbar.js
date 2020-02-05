@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import routes from "../../routes";
 
 const Navbar = () => {
   return (
@@ -19,7 +18,6 @@ const Navbar = () => {
           <Link to="/contactus">Contact Us</Link>
         </li>
       </ul>
-      {routes}
     </React.Fragment>
   );
 };
