@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./navbar.css";
 
 const Navbar = () => {
   return (
     <React.Fragment>
-      <ul>
+      <ul class="navbar">
         <li>
           <Link to="/">Home</Link>
         </li>
