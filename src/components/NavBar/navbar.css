@@ -1,7 +1,8 @@
-.navbar ul {
-  list-style: none;
+.navbar-body {
+  display: flex;
+  align-items: stretch;
 }
 
-.navbar li {
-  display: inline-block;
+.navbar-body ul {
+  list-style: none;
 }
