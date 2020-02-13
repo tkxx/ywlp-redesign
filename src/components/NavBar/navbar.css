@@ -1,8 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
+
 .navbar-body {
+  font-family: "Work Sans", sans-serif;
   display: flex;
+  justify-content: space-around;
   align-items: stretch;
+  list-style: none;
+  margin-bottom: 5vh;
 }
 
-.navbar-body ul {
-  list-style: none;
+a {
+  color: #cbbcf6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cef9e2;
+  font-style: italic;
+}
+
+a:visited {
+  color: #421b9b;
 }

@@ -5,22 +5,24 @@ import "./navbar.css";
 const Navbar = () => {
   return (
     <React.Fragment>
-      <div className="navbar-body">
-        <ul>
+      <nav>
+        <ul className="navbar-body">
+          <li className="links">LOGO</li>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">HOME</Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about">ABOUT</Link>
           </li>
           <li>
-            <Link to="/events/:id">Events</Link>
+            <Link to="/events/:id">EVENTS</Link>
           </li>
           <li>
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/contactus">CONTACT US</Link>
           </li>
+          <li>SIGN IN LINK (Firebase)</li>
         </ul>
-      </div>
+      </nav>
     </React.Fragment>
   );
 };
