@@ -22,6 +22,7 @@ const Navbar = () => {
           </li>
           <li>SIGN IN LINK (Firebase)</li>
         </ul>
+        Redux + Firebase
       </nav>
     </React.Fragment>
   );
